@@ -1,0 +1,227 @@
+@media only screen and (min-width: 1300px) and (max-width: 1500px) {
+    #top {
+        width: 90%;
+    }
+
+    #head {
+        height: calc(var(--head_height) - 50px);
+        background: none;
+    }
+
+    .main_div_box p{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1300px) {
+    .main_div_school {
+        flex-direction: row !important;
+    }
+
+    .latest_blog_box img {
+        width: 25vw !important;
+    }
+
+    .latest_blog_box  {
+        width: 25vw !important;
+        height: 450px !important;
+    }
+}
+
+
+@media only screen and (max-width: 1300px) {
+
+    body {
+        width: 100vw !important;
+    }
+
+
+    section {
+        margin-top: 0 !important;
+    }
+
+    #layout_page {
+        height: auto;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #head {
+        height: auto;
+        background: none;
+        display: flex;
+        justify-content: center;
+        position: initial;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    #top {
+        display: block;
+        width: 80%;
+        padding: 0;
+        position: initial;
+    }
+
+    #latest_blog {
+        width: auto;
+    }
+
+    #buttons {
+        flex-direction: column ;
+    }
+    #buttons div {
+        width: 100%;
+    }
+    .header_button {
+        width: 100%;
+    }
+
+    #about {
+        padding: 0px;
+    }
+
+    #top .title, #about #presentation{
+        display: none;
+    }
+
+    #layout_page .title:nth-child(1), #interests .title:nth-child(1) {
+        margin-bottom: 40px;
+    }
+
+    #interests {
+        height: auto !important;
+    }
+
+    section {
+        height: auto !important;
+        margin-bottom: 60px;
+        margin-top: 60px;
+    }
+
+    .main_div {
+        height: auto !important;
+        width: auto !important;
+    }
+
+
+
+    .last_blog_element {
+        flex-direction: column;
+    }
+
+    #profile_image {
+
+    }
+
+    .main_div_flex{
+        flex-direction: column;
+    }
+
+    .main_div_box{
+        height: auto;
+        width: auto;
+        padding-bottom: 0;
+        margin-bottom: 40px;
+    }
+
+
+    /*education*/
+    .main_div_school {
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+
+    .main_div_school img{
+        margin-bottom: 12px;
+    }
+
+
+    /*Project*/
+    .slide_item {
+        display: flex;
+        flex-direction: column;
+        word-wrap: break-word;
+    }
+
+    .projects_button {
+        margin-top: 6px;
+    }
+
+
+    /*latest from the blog*/
+    .latest_blog_box {
+        width: 60vw;
+        margin-bottom: 70px;
+        height: 380px;
+    }
+
+    .latest_blog_title {
+        font-size: 18px;
+    }
+
+    .latest_blog_box img {
+        width: 60vw;
+    }
+
+
+    /*Contact me*/
+    .formbold-form-input {
+        width: 100%;
+    }
+
+    .formbold-mb-5 {
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .formbold-main-wrapper {
+        padding: 0;
+    }
+
+    .formbold-form-wrapper{
+        width: 100%;
+    }
+
+    .formbold-form-label {
+        margin-bottom: 5px;
+    }
+
+    #footer_right, #footer_middle{
+        display: none !important;
+    }
+
+
+
+    /*BLOG*/
+
+    .post {
+        flex-direction: column;
+    }
+
+    .post_bottom {
+        flex-direction: column;
+    }
+
+    .post_date {
+        margin-bottom: 5px;
+    }
+
+    .post img {
+        margin-bottom: 10px;
+    }
+
+    #article {
+        width: 100%;
+    }
+}
+
+

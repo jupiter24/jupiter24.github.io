@@ -1,0 +1,29 @@
+
+
+.main_div_school {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px 10px;
+     text-align: center;
+    border-bottom: 1px solid var(--menu_color);
+    /*padding: 20px;
+    box-shadow: rgb(0 0 0 / 8%) 0px 2px 4px, rgb(0 0 0 / 6%) 0px 2px 12px;*/
+    width: 15vw;
+    background-color: var(--background);
+
+}
+
+.main_div_school_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 15px;
+}
+
+
+.title_boxes_school {
+    font-weight: bold;
+    height: 40px;
+}
+

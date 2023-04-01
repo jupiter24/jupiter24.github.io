@@ -1,0 +1,316 @@
+
+        
+            :root {
+                --menu_color: #1d826c;
+                --menu_color: #27867f;
+                --menu_color: #05868f;
+                --menu_color: #05747b; /*this is the one I am using the others could be good too*/
+                --head_height: 300px;
+                --title_size: 30px;
+                --background: #FFF;
+            }
+
+            html {
+                scroll-behavior: smooth;
+            }
+        
+            body {
+                font-family: 'Open Sans';
+                color: #383D46;   
+                background: var(--background);
+                margin: 0;
+                font-size: 17px;
+                font-size-adjust:0.5;
+
+            }
+        
+            a {
+                text-decoration: none;
+                color: gray;
+            }
+        
+            #menu {
+                width: 100%;
+                height: 55px;
+                background-color:  var(--menu_color);
+                display: flex;
+                flex-wrap: nowrap;
+                align-items: center;
+                position: fixed;
+                z-index: 1;
+            }
+            
+            #logo {
+                color: white;
+                font-size: 28px;
+                font-family: 'Waterfall';
+                font-family: 'Marcellus SC'
+
+            }
+            
+            #menu a {
+                color: white;
+            }
+            
+            #menu_center {
+                flex-grow: 1;
+            }
+
+            #menu  ul {
+                list-style: none;
+                display: flex;
+                padding: 0;
+                font-size: 19px;
+            }
+            
+            #menu  li {
+                padding-right: 25px;
+                padding-left: 25px;
+            }
+            
+            #head {
+                width: 100%;
+                height: var(--head_height);
+                background: #f8f8f8 url(../images/46271372.jpg) repeat;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+            }
+
+            #top {
+                padding: 20px;
+                background: var(--background);
+                width: 70%;
+                height: 160px;
+                display: flex;
+                position: absolute;
+                bottom: 0px;
+            }
+
+            .header_button {
+                text-align: center;
+                border-radius: 6px;
+                padding: 8px 12px;
+                width: 98%;
+                margin-bottom: 5px;
+                border: none;
+                font-weight: bold;
+                background-color: #f1f1f1;
+                color: white;
+                cursor: pointer;
+            }
+
+            #buttons {
+                display: flex;
+                margin-top: 5px;
+            }
+
+            #buttons > div {
+                width: 50%;
+            }
+
+            .header_button:hover {
+                background-color: #ddd;
+                transition: background-color 0.5s linear;
+            }
+
+            .linkedin {
+                color: RGBA(148,21,21,0.95)
+;
+                border: 0px solid #005580;
+
+            }
+
+            .github {
+                color: RGBA(148,21,21,0.95);
+                border: 0px solid #000;
+
+            }
+
+            .curriculum {
+                color: RGBA(148,21,21,0.95);
+                border: 0px solid #008055;
+            }
+
+            .blog {
+                color: RGBA(148,21,21,0.95);
+            }
+            
+            .title {
+                font-family: 'Gochi Hand';
+                font-size: var(--title_size);
+                color: var(--menu_color);
+                width: 100%;
+            }
+
+            #interests {
+                width: 100%;
+                height: calc(100vh - var(--head_height));
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            section {
+                width: 100%;
+                height: calc(100vh);
+
+            }
+            #layout_page {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+
+            #latest_blog {
+                font-size: 20px;
+                color: gray;
+                display: flex;
+                flex-direction: column;
+                width: 40%;
+            }
+            
+            .last_blog_element {
+
+                padding-bottom: 5px;
+                padding-top: 5px;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .last_blog_element a {
+                color: gray;
+            }
+
+
+
+            
+            #about {
+                width: 60%;
+                padding-right: 50px;
+            }
+            
+            
+            #profile_image {
+                width: 150px;
+                height: 150px;
+                border: 1px solid var(--background);
+                box-shadow: 0 0 0 1.5pt #941515;
+                /*outline: 2px solid #941515;*/
+                float: left;
+                margin-right: 20px;
+                border-radius: 150px;
+                background-image: url('../images/profile2.png');
+                background-size: contain;
+            }
+            
+            #main {
+                display:flex;
+                align-items: center;
+                flex-direction: column;
+                width: 80%;
+                height: 100%;
+                justify-content: space-between;
+            }
+            
+            .main_div {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 100%;
+                height: 50%;
+
+            }
+            
+            .main_div_flex {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            
+            footer {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 200px;
+                padding: 20px;
+                background: #202124;
+            }
+
+            #footer_main {
+                width: 80%;
+                color: gray;
+                display: flex;
+                align-items: stretch;
+
+            }
+
+            #footer_main #about{
+                margin-left: 90px;
+            }
+
+            #footer_main #profile_image {
+                border: 1px solid #202124;
+                box-shadow: 0 0 0 1pt var(--menu_color);
+                /*outline: 1px solid ;*/
+
+            }
+
+            #footer_main ul {
+                list-style: none;
+            }
+
+            #footer_middle {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex: 1 1 auto;
+                font-size: 40px;
+            }
+
+            #footer_right {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+            }
+
+            #footer_main li {
+                margin-bottom: 10px;
+                font-size: 16px;
+            }
+
+            #footer_main a:hover {
+                color: #FFF;
+            }
+
+            .important_link{
+                text-decoration: #941515;
+                color: var(--menu_color) !important;
+                font-weight: bold;
+                font-style: italic;
+                text-decoration: underline;
+                display: flex;
+                justify-content: end;
+            }
+
+            .previous_next button {
+                color:#000;
+                background-color:#f1f1f1;
+                border:none;
+                display:inline-block;
+                padding:10px 16px;
+                vertical-align:middle;
+                cursor:pointer;
+                white-space:nowrap;
+                margin-right: 5px;
+                border-radius: 6px;
+                transition: background-color 0.5s linear;
+            }
+
+            .previous_next button:hover {
+                background-color: #ddd;
+            }

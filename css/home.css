@@ -1,0 +1,16 @@
+.main_div_box {
+    width: 300px;
+    overflow: hidden;
+    padding: 5px;
+    padding-bottom: 7px;
+    padding-top: 0px;
+    border-bottom: 1px solid var(--menu_color);
+    background-color: var(--background);
+}
+
+
+.title_boxes {
+    font-weight: bold;
+    color: #2a2a2a;
+} 
+
