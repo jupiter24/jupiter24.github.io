@@ -5,7 +5,7 @@
 
         <link rel="stylesheet" href="css/layout.css">
         <link rel="stylesheet" href="css/home.css">
-        <link rel="stylesheet" href="css/education.css">
+        <link rel="stylesheet" href="css/gallery.css">
         <link rel="stylesheet" href="css/projects.css">
         <link rel="stylesheet" href="css/home_blog.css">
         <link rel="stylesheet" href="css/contact.css">
@@ -37,7 +37,7 @@
             <div id="menu_right">
                 <ul>
                     <li><a href="#">About</a></li>
-                    <li><a href="#education_section">Education</a></li>
+                    <li><a href="#gallery_section">Gallery</a></li>
                     <li><a href="#projects_section">Projects</a></li>
                     <li><a href="#contacts_section">Contact Me</a></li>
                 </ul>
@@ -55,14 +55,17 @@
                             <span class="title">About Me</span>
                             <div id="profile_image"></div>
                             <div id="presentation">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                            Hey! My name is Giovanni and I am a Machine Learning engineer.<br>
+                            I was born in a small town in the middle of Sicily surrounded by nature and food.
+                            When I was a child a developed a passion for computers and some years ago I got my bachelor degree in computer engineering.
+                            Today I live in Stockholm where I am currently studying Machine learning at KTH. During my free time i like sleeping, singing, reading, playing chess, making pizza and much much more. Welcome to my life!
+        
                             </div>
                         </div>
 
 
                         <div id="latest_blog">
-                            <div class="title" >Latest From The Blog</div>
-
+                            <div style="height: 100%; display:flex; flex-direction: row; justify-content: space-around; align-items: center;"><img src="./images/euler.png" width="234px" height="68"></div>
                         </div>
 
                     </div>
@@ -76,22 +79,22 @@
                     <div style="width: 100%; display: flex; justify-content: space-between;" class="title" >
                         <div>My Interests</div>
                         <div>
-                            <a><img style="width: 32px; height: 32px;" src="images/github.png"></a>
-                            <a><img style="width: 32px; height: 32px;" src="images/linkedin.png"></a>
+                            <a href="https://github.com/jupiter24"><img style="width: 32px; height: 32px;" src="images/github.png"></a>
+                            <a href="https://www.linkedin.com/in/giovanni-c-316451249/"><img style="width: 32px; height: 32px;" src="images/linkedin.png"></a>
 
                         </div>
                     </div>
 
                     <div class="main_div">
                         <div class="main_div_flex">
-                            <div class="main_div_box"><span class="title_boxes" >Math</span> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
-                            <div class="main_div_box"><span class="title_boxes" >Journalism</span> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
-                            <div class="main_div_box"><span class="title_boxes" >Electronics</span> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+                            <div class="main_div_box"><span class="title_boxes" >Math</span> <p>Math is my biggest passion. I enjoy spending my time playing with formulas in front of a whiteboard.</p></div>
+                            <div class="main_div_box"><span class="title_boxes" >Computers</span> <p>Since I was a child I have never been able to stop studying computer science.</p></div>
+                            <div class="main_div_box"><span class="title_boxes" >Electronics</span> <p>When I started my undergraduate studies I hated electronics. Today I miss it.</p></div>
                         </div>
                         <div class="main_div_flex">
-                            <div class="main_div_box"><span class="title_boxes" >Economy</span> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
-                            <div class="main_div_box"><span class="title_boxes" >Pizza</span> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
-                            <div class="main_div_box"><span class="title_boxes" >People</span> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+                            <div class="main_div_box"><span class="title_boxes" >Economics</span> <p>I still cannot believe I developed a passion for economics.</p></div>
+                            <div class="main_div_box"><span class="title_boxes" >Pizza</span> <p>I was lying when I wrote that math is my biggest passion. Pizza <3 <3. </p></div>
+                            <div class="main_div_box"><span class="title_boxes" >People</span> <p>People around me are the most important thing in my life.</p></div>
                         </div>
                     </div>
 
@@ -100,6 +103,21 @@
                 </div>
             </div>
         </section>
+        
+        <section id="gallery_section">
+            <div id="layout_page">
+                <div id="main">
+                    <div style="width: 100%; height: 1px;"> </div>
+                    <div style="width:100%;"><div style="" class="title" >Gallery</div></div> 
+
+                    <img width="100%" src="images/gallery/gallery.png">
+
+                    <div style="color: var(--background)" class="title">Title</div>
+                    <div style="width: 100%; height: 1px;"> </div>
+                </div>
+            </div>
+        </section>
+        
         <section id="projects_section">
             <div id="layout_page">
                 <div id="main">
@@ -110,142 +128,199 @@
                         <div class="w3-content">
                             <div class="mySlides">
                                 <div class="slide_item">
-                                    <div>Development of a translator by means of GRU with attention </div>
+                                    <div>Neo4j algorithms for clustering and hubs detection in Twitter</div>
                                     <div>
-                                    <button class="projects_button report_button">Report</button>
-                                    <button class="projects_button presentation_button">Presentation</button>
-                                    <button class="projects_button code_button">Code</button>
+                                    <form 
+                                        style=" display:inline!important;"
+                                        action="https://github.com/jupiter24/neo4-algorithms-for-clustering-and-hub-detection-in-twitter/blob/main/o46001804.pdf">
+                                            <button  class="projects_button report_button">Report</button>
+                                    </form>
+                                    </div>
+                                </div>
+                            
+                                <div class="slide_item">
+                                    <div>High Fidelity Visualization of What Your Self-Supervised Representation Knows About</div>
+                                    <div>
+                                    <form 
+                                        style=" display:inline!important;"
+                                        action="https://github.com/jupiter24/final-project-deep-learning-advanced-course/blob/master/DD2412_Project_Report.pdf">
+                                            <button  class="projects_button report_button">Report</button>
+                                    </form>
+                                    <form
+                                        style=" display:inline!important;"
+                                        action="https://github.com/jupiter24/final-project-deep-learning-advanced-course">
+                                        <button class="projects_button code_button">Code</button>
+                                    </form>
                                     </div>
                                 </div>
 
                                 <div class="slide_item">
-                                    <div>Development of a translator by means of GRU with attention </div>
+                                    <div>Random projections in dimensionality reduction; Applicationsto image and text data </div>
                                     <div>
-                                    <button class="projects_button report_button">Report</button>
-                                    <button class="projects_button presentation_button">Presentation</button>
-                                    <button class="projects_button code_button">Code</button>
+                                    <form 
+                                        style=" display:inline!important;"
+                                        action="https://github.com/jupiter24/Advanced-machine-learning/blob/main/Machine_Learning_Project.pdf">
+                                            <button  class="projects_button report_button">Report</button>
+                                    </form>
                                     </div>
                                 </div>
 
                                 <div class="slide_item">
-                                    <div>Development of a translator by means of GRU with attention </div>
+                                    <div>Impact of data augmentation on classification of spoken digits</div>
                                     <div>
-                                    <button class="projects_button report_button">Report</button>
-                                    <button class="projects_button presentation_button">Presentation</button>
-                                    <button class="projects_button code_button">Code</button>
+                                    <form 
+                                        style=" display:inline!important;"
+                                        action="https://github.com/jupiter24/speech-technology/blob/main/Final_Report.pdf">
+                                            <button  class="projects_button report_button">Report</button>
+                                    </form>
+                                    <form 
+                                        style=" display:inline!important;"
+                                        action="https://docs.google.com/presentation/d/1Pwbxjk74U8wM1h376-Z-uwsoahvlJtEQiTS198gnqoA/edit?usp=sharing">
+                                            <button  class="projects_button presentation_button">Presentation</button>
+                                    </form>
                                     </div>
                                 </div>
 
                                 <div class="slide_item">
-                                    <div>Development of a translator by means of GRU with attention </div>
+                                <div>Fake news detection (Language engineering course)</div>
                                     <div>
-                                    <button class="projects_button report_button">Report</button>
-                                    <button class="projects_button presentation_button">Presentation</button>
-                                    <button class="projects_button code_button">Code</button>
+                                    <form 
+                                        style=" display:inline!important;"
+                                        action="https://github.com/jupiter24/Natural-language-processing-KTH/blob/main/Language_engineering_project.pdf">
+                                            <button  class="projects_button report_button">Report</button>
+                                    </form>
                                     </div>
                                 </div>
 
-                                <div class="slide_item">
-                                    <div>Development of a translator by means of GRU with attention </div>
-                                    <div>
-                                    <button class="projects_button report_button">Report</button>
-                                    <button class="projects_button presentation_button">Presentation</button>
-                                    <button class="projects_button code_button">Code</button>
-                                    </div>
-                                </div>
                             </div>
                             <div class="mySlides" >
                                 <div class="slide_item">
-                                    <div>Development of a translator by means of GRU with attention </div>
+                                    <div>Dimensionality reduction (Advanced machine learning course) </div>
                                     <div>
-                                    <button class="projects_button report_button">Report</button>
-                                    <button class="projects_button presentation_button">Presentation</button>
-                                    <button class="projects_button code_button">Code</button>
+                                    <form 
+                                        style=" display:inline!important;"
+                                        action="https://github.com/jupiter24/Advanced-machine-learning/blob/main/ml__advanced_course___assignment_1___Castellano_Giovanni.pdf">
+                                            <button  class="projects_button report_button">Report</button>
+                                    </form>
                                     </div>
                                 </div>
 
                                 <div class="slide_item">
-                                    <div>Development of a translator by means of GRU with attention </div>
+                                    <div>Variational inference (Advanced machine learning course)</div>
                                     <div>
-                                    <button class="projects_button report_button">Report</button>
-                                    <button class="projects_button presentation_button">Presentation</button>
-                                    <button class="projects_button code_button">Code</button>
+                                    <form 
+                                        style=" display:inline!important;"
+                                        action="https://github.com/jupiter24/Advanced-machine-learning/blob/main/ml___advanced_course___assignment_2.pdf">
+                                            <button  class="projects_button report_button">Report</button>
+                                    </form>
                                     </div>
                                 </div>
 
                                 <div class="slide_item">
-                                    <div>Development of a translator by means of GRU with attention </div>
+                                
+                                    <div>Classification with a single-layer perceptron (Artificial neural network course)</div>
                                     <div>
-                                    <button class="projects_button report_button">Report</button>
-                                    <button class="projects_button presentation_button">Presentation</button>
-                                    <button class="projects_button code_button">Code</button>
+                                    <form 
+                                        style=" display:inline!important;"
+                                        action="https://github.com/jupiter24/Artificial-neural-networks-and-deep-architectures---KTH-/blob/main/Lab1a_Assignment.pdf">
+                                            <button  class="projects_button report_button">Report</button>
+                                    </form>
+                                    <form 
+                                        style=" display:inline!important;"
+                                        action="https://docs.google.com/presentation/d/1zacZm0soNXRFOsEH98GFOassm76vyGRVC0GgsBk7lVY/edit?usp=sharing">
+                                            <button  class="projects_button presentation_button">Presentation</button>
+                                    </form>
                                     </div>
                                 </div>
 
                                 <div class="slide_item">
-                                    <div>Development of a translator by means of GRU with attention </div>
+                                     <div>Backpropagation in multi-layer perceptron (Artificial neural network course)</div>
                                     <div>
-                                    <button class="projects_button report_button">Report</button>
-                                    <button class="projects_button presentation_button">Presentation</button>
-                                    <button class="projects_button code_button">Code</button>
+                                    <form 
+                                        style=" display:inline!important;"
+                                        action="https://github.com/jupiter24/Artificial-neural-networks-and-deep-architectures---KTH-/blob/main/Lab1b_Assignment.pdf">
+                                            <button  class="projects_button report_button">Report</button>
+                                    </form>
+                                    <form 
+                                        style=" display:inline!important;"
+                                        action="https://docs.google.com/presentation/d/1PI8ezG3p1mevmYRL1vwqaiBy3Dde6aG9zkc9PNdYglE/edit?usp=sharing">
+                                            <button  class="projects_button presentation_button">Presentation</button>
+                                    </form>
                                     </div>
                                 </div>
 
                                 <div class="slide_item">
-                                    <div>Development of a translator by means of GRU with attention </div>
+                                    <div>Radial basis functions, competitive learning and self-organisation (Artificial neural network course)</div>
                                     <div>
-                                    <button class="projects_button report_button">Report</button>
-                                    <button class="projects_button presentation_button">Presentation</button>
-                                    <button class="projects_button code_button">Code</button>
+                                    <form 
+                                        style=" display:inline!important;"
+                                        action="https://github.com/jupiter24/Artificial-neural-networks-and-deep-architectures---KTH-/blob/main/Lab2_Assignment.pdf">
+                                            <button  class="projects_button report_button">Report</button>
+                                    </form>
+                                    <form 
+                                        style=" display:inline!important;"
+                                        action="https://docs.google.com/presentation/d/1_gA2odgG58odWxSaeU0zmR3pKCyxh_A7t36LODqGRms/edit#slide=id.g1144ab305b2_1_55">
+                                            <button  class="projects_button presentation_button">Presentation</button>
+                                    </form>
                                     </div>
                                 </div>
                             </div>
                             <div class="mySlides">
 
                                 <div class="slide_item">
-                                    <div>Development of a translator by means of GRU with attention </div>
+                                    <div>Hopfield networks (Artificial neural network course)</div>
                                     <div>
-                                    <button class="projects_button report_button">Report</button>
-                                    <button class="projects_button presentation_button">Presentation</button>
-                                    <button class="projects_button code_button">Code</button>
+                                    <form 
+                                        style=" display:inline!important;"
+                                        action="https://github.com/jupiter24/Artificial-neural-networks-and-deep-architectures---KTH-/blob/main/Lab3_Assignment.pdf">
+                                            <button  class="projects_button report_button">Report</button>
+                                    </form>
+                                    <form 
+                                        style=" display:inline!important;"
+                                        action="https://docs.google.com/presentation/d/1ySXF11EVBYWy4b47TKmjSIHRBFkZblB8zk_qW4xlcSI/edit?usp=sharing">
+                                            <button  class="projects_button presentation_button">Presentation</button>
+                                    </form>
                                     </div>
                                 </div>
 
                                 <div class="slide_item">
-                                    <div>Development of a translator by means of GRU with attention </div>
+                                    <div>Restricted Boltzman Machines and deep belief networks (Artificial neural network course)</div>
                                     <div>
-                                    <button class="projects_button report_button">Report</button>
-                                    <button class="projects_button presentation_button">Presentation</button>
-                                    <button class="projects_button code_button">Code</button>
+                                    <form 
+                                        style=" display:inline!important;"
+                                        action="https://github.com/jupiter24/Artificial-neural-networks-and-deep-architectures---KTH-/blob/main/Lab4_Assignment.pdf">
+                                            <button  class="projects_button report_button">Report</button>
+                                    </form>
+                                    <form 
+                                        style=" display:inline!important;"
+                                        action="https://docs.google.com/presentation/d/1ULPClNilIP8eJwWNEVC_3WjLqVm7MFrNR_Z7nhVQhts/edit?usp=sharing">
+                                            <button  class="projects_button presentation_button">Presentation</button>
+                                    </form>
                                     </div>
                                 </div>
 
                                 <div class="slide_item">
-                                    <div>Development of a translator by means of GRU with attention </div>
+                                    <div>supervised regression wuth Generative Adversarial netoerks (Advanced deep learning course)</div>
                                     <div>
-                                    <button class="projects_button report_button">Report</button>
-                                    <button class="projects_button presentation_button">Presentation</button>
-                                    <button class="projects_button code_button">Code</button>
+                                        <form 
+                                            style=" display:inline!important;"
+                                            action="https://github.com/jupiter24/deep-learning-advanced-course/blob/main/gan_part2_discriminator_loss_for_regression.ipynb">
+                                                <button  class="projects_button code_button">code</button>
+                                        </form>
                                     </div>
                                 </div>
 
                                 <div class="slide_item">
-                                    <div>Development of a translator by means of GRU with attention </div>
+                                    <div>Uncertainty Estimation in machine learning (Advanced deep learning course)</div>
                                     <div>
-                                    <button class="projects_button report_button">Report</button>
-                                    <button class="projects_button presentation_button">Presentation</button>
-                                    <button class="projects_button code_button">Code</button>
+                                        <form 
+                                            style=" display:inline!important;"
+                                            action="https://github.com/jupiter24/deep-learning-advanced-course/blob/main/Uncertainty_Estimation_Aleatoric_Uncertainty_and_Simple_VI_(1).ipynb">
+                                                <button  class="projects_button code_button">code</button>
+                                        </form>
                                     </div>
                                 </div>
 
-                                <div class="slide_item">
-                                    <div>Development of a translator by means of GRU with attention </div>
-                                    <div>
-                                    <button class="projects_button report_button">Report</button>
-                                    <button class="projects_button presentation_button">Presentation</button>
-                                    <button class="projects_button code_button">Code</button>
-                                    </div>
-                                </div>
                             </div>
                         </div>
 
@@ -347,7 +422,7 @@
             <div id="footer_main">
                 <ul>
                         <li><a href="#">About</a></li>
-                        <li><a href="#education_section">Education</a></li>
+                        <li><a href="#gallery_section">Gallery</a></li>
                         <li><a href="#projects_section">Projects</a></li>
                         <li><a href="#contacts_section">Contact Me</a></li>
 
