@@ -241,6 +241,14 @@
                 padding: 20px;
                 background: #202124;
             }
+            
+            #lana_div {
+                display: flex;
+            }
+            
+            #lana_div img {
+                margin-right: 30px;
+            }
 
             #footer_main {
                 width: 80%;
